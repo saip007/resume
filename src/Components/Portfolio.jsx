@@ -86,7 +86,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "2s ease-out 0s 1 slideInRight",
+            }}
             alt={imageAltText}
           />
         </div>
@@ -101,6 +106,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
+      <hr />
     </section>
   );
 };

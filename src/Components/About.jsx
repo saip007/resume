@@ -24,20 +24,12 @@ const imageAltText = "background image";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I’m a Security Researcher specializing in Cyber Security with a focus on reviewing the source code of open-source packages in ecosystems like NPM, PyPI, Maven, and Ruby. I have 2 years of experience in analyzing code to identify and report malicious activities, such as exfiltration of sensitive information, and verifying binaries through platforms like VirusTotal and online sandboxes.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
-const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
-];
 
 /**
  * Use this to give more information about what you are passionate about,
@@ -45,7 +37,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Before this role, I completed a two-month internship at the same company, where I developed Python-based web scrapers for hundreds of sites to automate the extraction of security advisories. I hold a bachelor’s degree in Computer Science, where I gained knowledge in programming languages like Python, C/C++, Java, and JavaScript, along with basic skills in data structures, machine learning, and web development. Although my academic background doesn’t include formal training in Cyber Security, my hands-on experience has honed my skills in code analysis and problem-solving. I’m passionate about coding, developing solutions, and tackling challenges creatively. My career interests are diverse—I’m open to opportunities in software development, Cyber Security, or even further studies. I’m also exploring ways to grow my network, generate multiple income sources, and pursue personal interests like blogging, vlogging, and fitness.";
 
 const About = () => {
   return (
@@ -64,21 +56,6 @@ const About = () => {
       >
         <h2>About Myself</h2>
         <p className="large">{description}</p>
-        <hr />
-        <ul
-          style={{
-            textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
-          }}
-        >
-          {skillsList.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
-        <hr />
         <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
       </div>
     </section>

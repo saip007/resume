@@ -6,6 +6,7 @@
 
 html,
 body {
+  scroll-behavior: smooth;
   font-family: "Montserrat", sans-serif;
   height: 100%;
   margin: 0;
@@ -124,4 +125,14 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+
+/* add a slide In right animation */
+@keyframes slideInRight {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }
