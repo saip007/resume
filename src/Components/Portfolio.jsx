@@ -54,13 +54,35 @@ const projectList = [
       "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
     url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
   },
+  {
+    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    description:
+      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+  },
+  {
+    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    description:
+      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+  },
 ];
 
 const Portfolio = () => {
   return (
-    <section className="padding" id="portfolio">
+    <section
+      style={{ backgroundColor: "black", color: "blanchedalmond" }}
+      className="padding"
+      id="portfolio"
+    >
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
-      <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          paddingTop: "3rem",
+        }}
+      >
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}

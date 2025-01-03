@@ -46,6 +46,7 @@ section img.background {
 }
 
 h1 {
+  color: aliceblue;
   font-family: "Cormorant Garamond", serif;
   font-size: 7rem;
   font-weight: 400;
@@ -54,6 +55,7 @@ h1 {
 }
 
 h2 {
+  color: whitesmoke;
   font-size: 2rem;
   font-weight: 400;
   margin: 0;
@@ -94,12 +96,12 @@ li::marker {
 }
 
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
 a:hover {
-  color: #4e567e;
+  color: blanchedalmond;
 }
 
 .container {

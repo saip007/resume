@@ -16,9 +16,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/security.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "background image";
 
 /**
  * Sort description that expands on your title on the Home component.
@@ -53,8 +53,10 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
-          width: "50%",
+          borderRadius: "10%",
+          color: "white",
+          backgroundColor: "#101010",
+          width: "70%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
