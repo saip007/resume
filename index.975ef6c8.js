@@ -29073,67 +29073,36 @@ const Education = ()=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "University Name"
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 9,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Degree, Major"
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 10,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Year of Graduation"
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 11,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/Education.jsx",
-                        lineNumber: 8,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                children: "Another University"
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 14,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Degree, Major"
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 15,
-                                columnNumber: 11
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                children: "Year of Graduation"
-                            }, void 0, false, {
-                                fileName: "src/Components/Education.jsx",
-                                lineNumber: 16,
-                                columnNumber: 11
-                            }, undefined)
-                        ]
-                    }, void 0, true, {
-                        fileName: "src/Components/Education.jsx",
-                        lineNumber: 13,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("li", {
+                    children: [
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            children: "Vardhaman College of Engineering"
+                        }, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 9,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "B.tech, Computer Science and Engineering"
+                        }, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 10,
+                            columnNumber: 11
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                            children: "2023"
+                        }, void 0, false, {
+                            fileName: "src/Components/Education.jsx",
+                            lineNumber: 11,
+                            columnNumber: 11
+                        }, undefined)
+                    ]
+                }, void 0, true, {
+                    fileName: "src/Components/Education.jsx",
+                    lineNumber: 8,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/Components/Education.jsx",
                 lineNumber: 7,
                 columnNumber: 7
