@@ -25,6 +25,7 @@ const Header = () => {
       <a href="#about">About</a>
       <a href="#education">Education</a>
       <a href="#portfolio">Portfolio</a>
+      <a href="https://saip007.github.io/Blogs" target="_blank" rel="noopener noreferrer">Blogs</a>
       <a href="#footer">Contact</a>
     </div>
   );
