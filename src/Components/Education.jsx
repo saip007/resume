@@ -6,14 +6,9 @@ const Education = () => {
       <h2 style={{ textAlign: "center", color: "black" }}>Education</h2>
       <ul>
         <li>
-          <h3>University Name</h3>
-          <p>Degree, Major</p>
-          <p>Year of Graduation</p>
-        </li>
-        <li>
-          <h3>Another University</h3>
-          <p>Degree, Major</p>
-          <p>Year of Graduation</p>
+          <h3>Vardhaman College of Engineering</h3>
+          <p>B.tech, Computer Science and Engineering</p>
+          <p>2023</p>
         </li>
       </ul>
     </section>
